@@ -119,6 +119,29 @@ nav ul li a:hover {
     padding-top: 5px;
   }
 
+  .cert-link {
+    font-family: 'Libre Baskerville', serif; 
+
+    /* Button Look */
+    display: inline-block;
+    text-decoration: none;
+    padding: .5em;
+    text-align: center; 
+    background-color: #d9d9d9;
+    color: #000000;
+    border: 1px solid black;
+    border-radius: 15px 15px 15px 15px; 
+    box-shadow: 0 4px 0 gray;
+    width: 20%;
+  }
+
+  .cert-link:hover {
+    background-color: #b3b3b3;
+    cursor: pointer;
+    color: #006400;
+  }
+
+
   #contact {
     padding-top: 60px;
     height: 560px;
