@@ -50,7 +50,6 @@ nav ul {
     position: fixed;
     width: 100%;
     background-color: #006400; 
-    
 }
 
 nav ul li {
@@ -131,7 +130,7 @@ nav ul li a:hover {
     color: #000000;
     border: 1px solid black;
     border-radius: 15px 15px 15px 15px; 
-    box-shadow: 0 4px 0 gray;
+    box-shadow: 0 5px 0 gray;
     width: 20%;
   }
 
@@ -159,11 +158,27 @@ nav ul li a:hover {
   }
 
   #contact-details a {
-    text-decoration: none;
+    color: #006400;
   }
 
   #contact-details i {
     margin-right: 20px;
+  }
+
+  #contact-details h3, p {
+    margin-bottom: 20px;
+  }
+
+  #contact-details ul {
+    list-style-type: none;
+  }
+
+  #contact-details li {
+    margin-bottom: 10px;
+  }
+
+  #connect-via {
+    margin-top: 30px;
   }
 
   .fab {
@@ -194,6 +209,10 @@ nav ul li a:hover {
     color: white;
     line-height: 40px;
     background-color: #006400; 
+  }
+
+  footer a {
+    color: white;
   }
   
   
