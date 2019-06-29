@@ -95,15 +95,19 @@ nav ul li a:hover {
     margin: 0 auto 0 auto;
     background-color: #e6e6e6;
 
-    -webkit-box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px #ccc; 
+    -moz-box-shadow: 10px 10px 5px #ccc; 
+    -webkit-box-shadow: 10px 10px 5px #ccc; 
+    -khtml-box-shadow: 10px 10px 5px #ccc;
+
 }
 
 .project-tile:hover {
-  -webkit-box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.75);
-  box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.75); 
+  box-shadow: 10px 10px 5px #b3b3b3; 
+  -moz-box-shadow: 10px 10px 5px #b3b3b3;
+  -webkit-box-shadow: 10px 10px 5px #b3b3b3;
+  
+  border: 3px solid #006400;
   color: #006400;
 }
   
@@ -129,8 +133,7 @@ nav ul li a:hover {
     background-color: #d9d9d9;
     color: #000000;
     border: 1px solid black;
-    border-radius: 15px 15px 15px 15px; 
-    box-shadow: 0 5px 0 gray;
+    border-radius: 5px;
     width: 20%;
   }
 
@@ -138,6 +141,7 @@ nav ul li a:hover {
     background-color: #b3b3b3;
     cursor: pointer;
     color: #006400;
+    border: 2px solid #006400;
   }
 
 
